@@ -1,0 +1,77 @@
+﻿body {
+    background-color:#151414;
+}
+
+.mainBox {
+position: absolute;
+width:100%;          
+height:1000px;         
+background-image: url("../Picture/world.png");
+background-repeat:no-repeat;         
+background-size: cover;
+background-position:center;
+}
+
+.headerBox {
+    position: absolute;            
+    width:99%;
+    margin-left:auto;
+    margin-right:auto;
+    height:135px;
+    background-color:#658782;
+    /*background-color:#59e1b7;*/
+    border-style:dashed;
+     border:dashed;
+    border-width:5px;
+    border-color:#9FDDBD;
+}
+
+.tableMain {
+    width: 100%;
+    height: 387px;
+}
+
+label {
+    color:white;
+    font-size: 16pt;
+    font-weight:bold;
+    font-family:Courier New, Courier, monospace;
+    text-shadow: -1px 0 #1ccbab, 0 2px #1ccbab, 2px 0 black, 0 -1px #00CC99;
+    border:dashed;
+    border-width:5px;
+    border-color:#9FDDBD;
+    background-color: black;
+    padding:10px;
+}
+
+.WacoLbl2{
+         
+   color:#9FDDBD;
+    font-size: 50pt;
+    font-weight:bold;
+    font-family:Courier New, Courier, monospace;
+    
+    
+}
+  
+    h1 {
+    font-family:Courier New, Courier, monospace;       
+    font-size:55pt;
+    font-weight: bold;
+    /*color: black;*/
+    color:#9FDDBD;
+    text-align:center;
+    /*text-shadow: -1px 0 grey, 0 3px black, 3px 0 black, 0 -1px grey;*/
+    }
+
+.SecondBox {
+    text-align:center;
+    width:420px;
+    height:350px;
+    border:dashed;
+    border-width:5px;
+    border-color:#9FDDBD;
+    background-color:#658782;
+    padding:10px;
+
+}
